@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import Pdf from "../models/pdf";
+import Pdf from "../models/PdfModel";
 import path from "path";
 import fs from "fs-extra";
 import pdfkit from "pdfkit";

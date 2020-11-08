@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import Photo from "../models/Photo";
+import Photo from "../models/PhotoModel";
 import path from "path";
 import fs from "fs-extra";
 
