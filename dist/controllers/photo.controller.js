@@ -15,7 +15,7 @@ exports.getPhotos = getPhotos;
 async function getPhoto(req, res) {
     const { id } = req.params;
     const photo = await PhotoModel_1.default.findById(id);
-    return res.json({ photo });
+    return res.json(photo);
 }
 exports.getPhoto = getPhoto;
 async function createPhoto(req, res) {
